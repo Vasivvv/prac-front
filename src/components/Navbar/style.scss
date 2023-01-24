@@ -1,0 +1,39 @@
+.navbar {
+  position: sticky;
+  background-color: white;
+  .nav-container{
+width: 100%;
+
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 30px;
+    }
+    .nav-btn {
+      width: 150px;
+      height: 50px;
+      .contact-btn {
+        font-weight: bolder;
+        border: 0px solid;
+        border-radius: 20px;
+        padding: 14px 20px;
+        color: #fff;
+        background-color: #7971ea;
+      }
+    }
+  }
+}
+}

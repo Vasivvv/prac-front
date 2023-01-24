@@ -1,0 +1,28 @@
+.sec-1{
+    display: flex;
+    background-image:linear-gradient(0deg, rgba(7, 4, 6, 0.425), rgba(26, 12, 20, 0.3)), url(https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   justify-content: space-around;
+   align-items: center;
+   .sec-1-left{
+width: 50%;
+       .sec-1-text{
+        color: white;
+        width: 70%;
+    
+       }
+   }
+   
+}
+.form-box{
+    padding: 40px;
+    background: #fff;
+    border-radius: 7px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
